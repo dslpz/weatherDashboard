@@ -22,38 +22,54 @@
 
 
             <div class="other" id="current-weather-items">
-                <div class="weather-item">
+                <!-- <div class="weather-item">
                     <div>Humidity</div>
                     <div>%</div>
                 </div>
-        <!-- <div class="other" id="current-weather-items"> -->
+        
                 <div class="weather-item">
                     <div>Wind Speed</div>
                     <div>%</div>
                 </div>
-        <!-- <div class="other" id="current-weather-items"> -->
+        
                 <div class="weather-item">
                     <div>UV Index</div>
                     <div>%</div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
+
 
     <div class="place-container">
         <div class="city" id="city">Houston</div>
         <div class="state" id="state">Texas</div>
     </div>
 
+    <!-- br><br>
+    <div class="searchcontainer">
+        <div class="title">City Search:</div>
+        <input id="cityinput" placeholder="Austin" type="text" onfocus="this.value=''">
+        <div class="history" id="button">Search</div>
+    </div>
+    <div class="historycontainer"> -->
+
     <div class="future-forecast">
         <div class="today" id="current-temp">
-        <img src=" http://openweathermap.org/img/wn/10d@2x.png"
-        alt="weather icon" class="w-icon">
+        <!-- <img src=" http://openweathermap.org/img/wn/10d@2x.png"
+        alt="weather icon" class="w-icon"> -->
         <div class="other">
+            <!-- <div class="day">Monday</div>
+            <div class="temp">90&#176; F</div> -->
+        </div>
+    </div>
+    <div class="weather-forecast" id="weather-forecast">
+        <div class="weather-forecast-item">
             <div class="day">Monday</div>
+            <img src=" http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
             <div class="temp">90&#176; F</div>
         </div>
-        <div class="weather-forecast" id="weather-forecast">
+    <div class="weather-forecast" id="weather-forecast">
         <div class="weather-forecast-item">
             <div class="day">Tuesday</div>
             <img src=" http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
@@ -74,10 +90,9 @@
             <img src=" http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
             <div class="temp">90&#176; F</div>
         </div>
-    </div>
 
     
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js" integrity="sha512-x/vqovXY/Q4b+rNjgiheBsA/vbWA3IVvsS8lkQSX1gQ4ggSJx38oI2vREZXpTzhAv6tNUaX81E7QBBzkpDQayA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 </body>
 </html>
